@@ -1,0 +1,32 @@
+.ft-address{
+    a{
+        color: #fff;
+        i{
+            padding-right: 10px;
+        }
+        &:hover{
+            color: #fff;
+        }
+        margin-bottom: 10px;
+    }
+}
+.ft-title{
+    display: block;
+    letter-spacing: 0;
+    color: #219bf1;
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+footer{
+    ul{
+        list-style: none;
+        li{
+            margin-left: 0px !important;
+            a{
+                color: #fff;
+            }
+        }
+    }
+}

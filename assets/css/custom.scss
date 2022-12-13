@@ -1,0 +1,53 @@
+@import "../css/common";
+@import "../css/pytha";
+@import "../css/homepage";
+@import "../css/single";
+@import "../css/footer";
+#wrapper{
+    // background-color: #0c1023 !important;
+}
+html {
+    height: 100%;
+    // background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    // overflow: hidden;
+    position: relative;
+  }
+.btn-dev {
+    background: var(--primary-color);
+    padding: 8px 16px;
+    display: table;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    &:hover{
+        opacity: 0.8;
+        color: #fff !important;
+    }
+}
+body{
+    // background: url(http://phongthuy.local/wp-content/uploads/2022/11/bg-section-home.jpg);
+    .is-divider {
+        height: 1px;
+        margin: 2px 0px;
+        background: none;
+    }
+    .row-divided>.col+.col:not(.large-12) {
+        border-left: none !important;
+    }
+    #wrapper, #main {
+        background-color: transparent;
+        position: relative;
+    }
+    #comments .comment-respond{
+        background: transparent;
+    }
+}
+input{
+    border-radius: 8px 0px !important;
+}
+.btn-dev{
+    background: linear-gradient(79.12deg,#531f8f 24.63%,#f0407b 121.89%);
+    border: none !important;
+}

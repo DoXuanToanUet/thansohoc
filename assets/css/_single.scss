@@ -1,0 +1,105 @@
+.single{
+    footer .row{
+        background: inherit;
+    }
+    .row{
+        background: #fff;
+    }
+    .article-inner,.post-sidebar #secondary{
+        padding: 20px 0px;
+    }
+    .post-sidebar {
+
+        .widget-title, .ff-section-title h2{
+            font-size: 20px;
+            color: #0a4266;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    }
+    #post-related{
+        .ff-section-title h2{
+            font-size: 20px;
+        }
+        .post-relate-item{
+            margin-bottom: 15px;
+            .item {
+                gap: 10px;
+            }
+            .item-pic{
+                width: 96px;
+                flex-shrink: 0;
+                img{
+                    aspect-ratio: 4/3;
+                    object-fit: cover;
+                }
+            }
+            a{
+                color: #000;
+            }
+        }
+    }
+    .current-day-wrapper{
+        background: url(https://lichngaytot.com/content/images/bglich1.png);
+        padding: 10px;
+        border-radius: 10px;
+        td{
+            color: #dc1435;
+            text-align: center;
+        }
+        .current-day-solar,.current-day-lunar{
+            .first{
+                font-size: 20px;
+                font-weight: bold;
+            }
+        }
+        .devD,.devMY,.devdayOfWeek{
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .devMY{
+            font-size: 18px;
+        }
+        .devD{
+            font-size: 100px;
+        }
+        .devdayOfWeek{
+            font-size: 30px;
+        }
+    }
+    #scr-lichamduong{
+        background: url(https://lichngaytot.com/content/images/bglich1.png);
+        padding: 10px;
+        border-radius: 10px;
+       
+        table{
+            border-color: transparent;
+            td{
+                border:1px solid #eee;
+                &.ngaythang{
+                    font-size: 13px;
+                    text-align: center;
+                }
+            }
+        }
+        .navi-l,.navi-r{
+            text-align: center;
+            font-weight: bold;
+        }
+        .tenthang{
+            color: #dc1435; 
+            text-align: center;
+        }
+        .weekday{
+            td{
+                text-align: center;
+            }
+        }
+        .homnay{
+            text-align: center;
+            color: #fff; 
+            background: #dc1435;
+        }
+    }
+}
